@@ -26,4 +26,14 @@ organizational confidentiality.
 
 ## High-Level Flow
 
-
+```
+Main Job Menu
+↓
+User Selects Interaction Mode
+↓
+Structured Domain Flow ←→ Free-Text Conversation
+↓
+Job Recommendation
+↓
+Redirect to Career Portal
+```
