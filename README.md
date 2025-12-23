@@ -139,7 +139,3 @@ seamless transitions between guided selection and open-ended inquiry.
 
 ---
 
-## Notes
-- All architectural descriptions are intentionally vendor-agnostic
-- The focus of this project is architecture, conversation design, and integration
-  patterns rather than UI implementation or content ownership
