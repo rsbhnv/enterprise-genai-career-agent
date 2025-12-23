@@ -55,13 +55,18 @@ for a distinct interaction pattern and powered by different AI capabilities.
 This agent is implemented directly within **Copilot Studio** and is responsible
 for structured, deterministic job matching based on predefined domains.
 
+The agent is **data-driven** and relies on managed tables stored in **Dataverse**
+to evaluate eligibility and return precise job recommendations.
+
 Responsibilities:
 - Presenting a domain-based job selection menu
 - Guiding users through eligibility and filtering questions
-- Applying rule-based logic using structured data sources
-- Returning precise job recommendations based on user responses
+- Applying rule-based logic driven by Dataverse-managed data
+- Returning accurate job recommendations based on user responses
 
-This agent ensures accuracy, consistency, and full control over eligibility logic.
+This agent ensures accuracy, consistency, and full control over eligibility logic,
+while allowing business users to maintain and update job data independently.
+
 
 ---
 
