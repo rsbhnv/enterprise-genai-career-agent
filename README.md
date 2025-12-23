@@ -85,17 +85,20 @@ natural conversational experience.
 
 ---
 
-## Knowledge & Search
-The agents rely on curated and externally managed knowledge sources, including:
+## Knowledge & Data Sources
+The solution relies on a combination of structured and unstructured knowledge sources:
+
+- **Dataverse tables** used by the Structured Domain Agent to store job attributes,
+  eligibility criteria, and matching rules
 - Job description files organized by domain
 - Planned roles and future training information
-- Configuration files defining job attributes and matching logic
 
-The Free-Text GenAI Agent uses **AI Search** to retrieve relevant information
-while maintaining control over authoritative content.
+The Free-Text GenAI Agent uses **AI Search** to retrieve relevant information from
+curated knowledge sources while maintaining control over authoritative content.
 
-Knowledge content is maintained outside the conversational layer, allowing
-independent updates without changes to conversation logic.
+Knowledge and data sources are maintained outside the conversational layer,
+allowing independent updates without changes to conversation logic.
+
 
 ---
 
