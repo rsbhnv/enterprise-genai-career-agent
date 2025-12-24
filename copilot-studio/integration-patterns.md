@@ -19,6 +19,8 @@ Integration characteristics:
 
 This ensures data accuracy and operational independence.
 ![copilot_studio](screenshots/copilot_studio_datavers.png)
+*(Example of Dataverse-based job metadata used by the structured agent.)*
+
 ---
 
 ## Integration with GenAI Services
