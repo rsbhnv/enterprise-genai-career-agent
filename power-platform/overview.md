@@ -25,7 +25,9 @@ for enterprise-grade conversational applications.
 ## Core Components Used
 - **Copilot Studio** – Conversation orchestration
 - **Dataverse** – Structured data storage
-- **Power Platform environments** – Lifecycle management
+- **Power Automate** – Workflow automation and integration between platform components
+- **Power Platform environments** – Lifecycle and environment management
+
 
 These components operate together
 to support a controlled and scalable solution.
