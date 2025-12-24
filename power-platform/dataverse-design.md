@@ -1,47 +1,74 @@
 # Dataverse Design
 
 This document describes the **Dataverse data model**
-used by the Structured Domain Agent.
+used by the Structured Domain Agent within the GenAI Career Agent solution.
 
 The design supports deterministic eligibility logic
 and business-managed job data.
-![Power Platform](screenshots/copilot_studio_datavers.png)
+
+![Dataverse tables used by the agent (anonymized)](../screenshots/copilot_studio_dataverse.png)
+
 ---
 
 ## Purpose of Dataverse
-Dataverse is used to store:
+
+Dataverse serves as the authoritative data store for
+structured, decision-driving information.
+
+It is used to store:
 - Job roles and domains
 - Eligibility attributes
-- Matching criteria
+- Matching and filtering criteria
 - Status and availability indicators
 
-It acts as the authoritative source
-for structured decision data.
+This structured data enables consistent
+and auditable decision logic during conversations.
 
 ---
 
 ## Design Characteristics
-- Strongly typed fields
-- Choice columns for controlled values
-- Business-friendly data management
+
+Key characteristics of the Dataverse model include:
+
+- Strongly typed fields to prevent invalid input
+- Choice columns for controlled, enumerated values
+- Business-friendly schema for non-technical maintenance
 - Read-only access during conversation runtime
 
-This design enables reliable decision logic
-and minimizes runtime ambiguity.
+This design minimizes ambiguity
+and ensures predictable agent behavior.
+
+---
+
+## Data Access Pattern
+
+During runtime:
+- The conversational agent reads from Dataverse
+- No direct data modification occurs as part of conversations
+- All eligibility decisions are driven by stored attributes
+
+This pattern preserves data integrity
+and supports safe conversational execution.
 
 ---
 
 ## Business Ownership
-Job data can be maintained by business users
+
+Job and eligibility data can be maintained
+by authorized business users through Dataverse
 without requiring changes to conversation logic.
 
-This separation improves agility
-while preserving technical control.
+This separation:
+- Improves agility
+- Reduces dependency on development cycles
+- Preserves technical control over agent behavior
 
 ---
 
 ## Summary
+
 The Dataverse design provides:
 - Deterministic decision support
-- Clean separation of data and logic
+- Clear separation of data and logic
+- Business-manageable configuration
 - Enterprise-grade reliability
