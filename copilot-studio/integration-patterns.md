@@ -18,7 +18,7 @@ Integration characteristics:
 - Business-owned data updates without conversation changes
 
 This ensures data accuracy and operational independence.
-
+![copilot_studio](screenshots/copilot_studio_datavers.png)
 ---
 
 ## Integration with GenAI Services
