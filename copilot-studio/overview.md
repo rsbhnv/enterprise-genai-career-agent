@@ -4,12 +4,13 @@ This document describes the role of **Microsoft Copilot Studio**
 within the Enterprise GenAI Career Agent solution.
 
 Copilot Studio serves as the **primary conversational orchestration layer**
-and user entry point, enabling structured and free-text interactions
+and user entry point, enabling both structured and free-text interactions
 within a governed enterprise framework.
 
 ---
 
 ## Purpose of Copilot Studio
+
 Copilot Studio is used to:
 - Host the conversational experience
 - Manage conversation flow and state
@@ -22,6 +23,7 @@ that align with organizational governance and security requirements.
 ---
 
 ## Position Within the Microsoft Ecosystem
+
 Copilot Studio is part of the broader **Microsoft Power Platform**
 and integrates natively with:
 - Dataverse
@@ -29,35 +31,41 @@ and integrates natively with:
 - Power Automate
 - Microsoft 365 experiences
 
-This allows conversational agents to operate consistently
+This enables conversational agents to operate consistently
 across multiple Microsoft products and channels.
 
 ---
 
-## Why Copilot Studio Was Chosen
-Key reasons for using Copilot Studio include:
+## Why Copilot Studio Was Selected
+
+Copilot Studio was selected due to:
 - Enterprise-grade governance and security
 - Native integration with Dataverse
-- Support for structured dialog design
-- Seamless integration with GenAI services
-- Business-friendly extensibility without sacrificing control
+- Support for structured dialog and rule-based flows
+- Controlled integration with GenAI capabilities
+- Business-friendly extensibility without sacrificing oversight
 
-Copilot Studio enables a balance between flexibility and determinism,
-which is critical for career and eligibility-based use cases.
+These capabilities are especially suited
+for eligibility-driven and career-related scenarios.
 
 ---
 
 ## Abstraction Level
+
 This document focuses on **capabilities and responsibilities**,
 not on implementation details.
 
-Specific conversation logic, integrations, and patterns
-are documented in the corresponding sections of this folder.
+Specific conversation logic, integration patterns,
+and interaction models are documented
+in the corresponding sections of this folder.
 
 ---
 
 ## Summary
+
 Copilot Studio acts as the **conversational backbone** of the solution,
 orchestrating user interactions while delegating logic,
 data access, and AI processing to specialized components.
+
+
 ![copilot_studio](screenshots/copilot_studio_overview.png)
