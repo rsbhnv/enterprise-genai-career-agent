@@ -26,3 +26,40 @@ Add a single anonymized screenshot showing the list of Power Platform environmen
 (e.g. DEV / TEST / PROD), without tenant or organization details.
 
 ![Power Platform](screenshots/power_platform.png)
+## Governance Principles
+
+The following governance principles are applied across environments:
+
+- Clear separation between environments
+- Controlled access to data, agents, and flows
+- Centralized management of configuration
+- Promotion of changes using governed release processes
+- Alignment with enterprise ALM practices
+
+These principles ensure consistency, traceability,
+and reduced operational risk.
+
+---
+
+## Solutions & ALM Control
+
+All platform components are packaged and promoted using **Solutions**.
+
+Solutions may include:
+- Copilot Studio agents
+- Power Automate flows
+- Dataverse tables and schema
+- Connection References
+
+Production deployments rely on **managed solutions**
+to enforce stability and prevent direct changes in PROD.
+
+---
+
+### Screenshot – Solutions & Release Model
+
+Add one anonymized screenshot showing the Solutions list
+(managed vs unmanaged), without organization-specific names.
+
+```text
+[ Screenshot: Power Platform Solutions – Managed / Unmanaged ]
