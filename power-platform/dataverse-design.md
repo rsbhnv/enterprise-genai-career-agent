@@ -6,7 +6,7 @@ used by the Structured Domain Agent within the GenAI Career Agent solution.
 The design supports deterministic eligibility logic
 and business-managed job data.
 
-![Power Platform](screenshots/copilot_studio_dataverse.png)
+![Power Platform](screenshots/copilot_studio_datavers.png)
 ---
 
 ## Purpose of Dataverse
