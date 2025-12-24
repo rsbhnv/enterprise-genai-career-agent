@@ -61,5 +61,4 @@ to enforce stability and prevent direct changes in PROD.
 Add one anonymized screenshot showing the Solutions list
 (managed vs unmanaged), without organization-specific names.
 
-```text
-[ Screenshot: Power Platform Solutions – Managed / Unmanaged ]
+![Power Platform](screenshots/power_platform_SOLUTIONS.png) 
