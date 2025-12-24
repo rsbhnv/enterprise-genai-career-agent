@@ -62,3 +62,43 @@ Add one anonymized screenshot showing the Solutions list
 (managed vs unmanaged), without organization-specific names.
 
 ![Power Platform](screenshots/power_platform_SOLUTIONS.png) 
+
+## Roles & Access Control
+
+A clear separation of responsibilities is maintained:
+
+### Makers / Developers
+- Build and test solutions in DEV
+- No direct modification rights in PROD
+
+### Admins / Release Owners
+- Manage environments
+- Control solution promotion
+- Enforce governance policies
+
+This model supports auditability
+and controlled change management.
+
+---
+
+## Operational Control
+
+Environment separation enables:
+- Safe experimentation
+- Predictable deployments
+- Auditable changes
+- Clear ownership of production stability
+
+This structure supports long-term scalability
+and organizational compliance.
+
+---
+
+## Summary
+
+The environment and governance model ensures:
+- Stable production operation
+- Controlled and auditable releases
+- Clear separation between development and runtime
+- Enterprise-ready governance across the solution lifecycle
+
