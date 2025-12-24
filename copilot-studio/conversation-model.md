@@ -32,6 +32,7 @@ Characteristics:
 This flow is used when precise job matching
 and eligibility validation are required.
 
+![copilot_studio](screenshots/copilot_studio_blocks.png)
 ---
 
 ## Free-Text Conversational Flow
