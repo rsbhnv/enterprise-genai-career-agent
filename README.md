@@ -16,11 +16,12 @@ organizational confidentiality.
 ---
 
 ## My Role
-- Architecture and conversation design
+- Architecture and conversation design at the solution level
 - Definition of agent responsibilities and interaction modes
 - Design of eligibility filtering logic
 - Integration of structured data sources with GenAI capabilities
-- Technical coordination across conversational and data layers
+- Hands-on technical coordination across conversational and data layers
+
 
 ---
 
