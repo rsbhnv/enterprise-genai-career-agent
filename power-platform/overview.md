@@ -7,6 +7,7 @@ Power Platform provides the application,
 data, and governance foundation
 for the conversational experience.
 
+![Power Platform](screenshots/power_platform.png)
 ---
 
 ## Role in the Solution
