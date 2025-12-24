@@ -25,6 +25,4 @@ and to prevent untested changes from impacting production users.
 Add a single anonymized screenshot showing the list of Power Platform environments
 (e.g. DEV / TEST / PROD), without tenant or organization details.
 
-```text
-[ Screenshot: Power Platform Environments – DEV / TEST / PROD ]
-```
+![Power Platform](screenshots/power_platform.png)
