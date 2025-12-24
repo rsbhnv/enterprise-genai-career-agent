@@ -60,3 +60,4 @@ are documented in the corresponding sections of this folder.
 Copilot Studio acts as the **conversational backbone** of the solution,
 orchestrating user interactions while delegating logic,
 data access, and AI processing to specialized components.
+![copilot_studio](screenshots/copilot_studio_overview.png)
