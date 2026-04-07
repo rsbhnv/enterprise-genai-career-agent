@@ -23,7 +23,7 @@ This pattern ensures data accuracy,
 predictable behavior, and operational independence
 between business data and conversational design.
 
-![copilot_studio](screenshots/copilot_studio_datavers.png)
+![copilot_studio](screenshots/copilot_studio_datavers_V1.png)
 
 *(Example of Dataverse-based job metadata consumed by the structured agent.)*
 
